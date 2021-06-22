@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
-import { createNotEmittedStatement, isConstructSignatureDeclaration } from "typescript";
+// import { createNotEmittedStatement, isConstructSignatureDeclaration } from "typescript";
 
 function App() {
   const [notes, setNotes] = useState([]);
